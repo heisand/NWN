@@ -1,0 +1,13 @@
+Settings used for automatically extending NWN-reduced (which resulted in attachment over 40% and accuracy over 80% when evaluating 
+on the test set):
+
+k = 6
+Smin = 0.55
+Words that did not have hypernyms in NWN-reduced were further excluded from the set of k similar words.
+d = 0.05
+Frequency cut-off on target words: 1000
+Cut-off on hypernym score: 3.4
+
+6,635 words from the Norwegian news corpus occurred more than or equal to 1000 times.
+
+
