@@ -1,4 +1,5 @@
 # coding=utf8
+# Should be run with 4 arguments: synsets.rdf, wordsenses.rdf, words.rdf and hyponymOf.rdf (in that order).
 
 import sys
 file1 = sys.argv[1] # synsets.rdf
