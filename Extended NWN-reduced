@@ -8,6 +8,18 @@ d = 0.05
 Frequency cut-off on target words: 1000
 Cut-off on hypernym score: 3.4
 
-6,635 words from the Norwegian news corpus occurred more than or equal to 1000 times.
+2846 words from the Norwegian news corpus, which do not occur in NWN-reduced, occurs more than or equal to 1000 times,
+and do not include proper nouns. 996 words are assigned a hypernym when scoring hypernyms with the given settings,
+but only 158 have a hypernym with a score of 3.4 or more. Training word embeddings og the full corpus, would probably have 
+given higher numbers.
+
+Examples of words that are added:
+
+næringsminister {politiker}
+oppussing {bygning}
+pengebruk {investering}
+infeksjon {syke; sykdom; lidelse; sjuke; sjukdom}
+spanjol {statsborger}
+
 
 
