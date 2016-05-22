@@ -2,23 +2,13 @@
 
 import rdflib
 from rdflib import URIRef, Literal
+import parse_rdf
 
 # Using rdflib's Graph to parse the rdf data
 
-synsets = rdflib.Graph()
-synsets_out = rdflib.Graph()
-wordsenses = rdflib.Graph()
-wordsenses_out = rdflib.Graph()
-words = rdflib.Graph()
-words_out = rdflib.Graph()
-
-synsets.parse("synsets.rdf")
-wordsenses.parse("wordsenses.rdf")
-words.parse("words.rdf")
-
 out = open("ouput_process2.txt", "w")
 
-# Some useful URIs
+# Some useful URIs.
 
 label = "http://www.w3.org/2000/01/rdf-schema#label"
 lexform = "http://www.w3.org/2006/03/wn/wn20/schema/lexicalForm"
@@ -34,13 +24,9 @@ for h, i, j in words.triples((None, URIRef(lexform), None)):
 		lookup[h] = set()
 	lookup[h] = j.encode("utf-8")
 
-
-
 #for s, p, o in synsets.triples((None, URIRef(label), None)):
 	#if (s, None, None) not in wordsenses:
 		#print s
-		
-
 
 ne_syn_removed = set()
 ne_wordsen_removed = set()
@@ -55,16 +41,14 @@ find=1
 ne_diff=set()
 multi_diff=set()
 
-# Looping over the synsets and locating and 
-# removing named entities by checking for an upper-case letter 
-# in the label. Synsets that have more than one word, and 
-# have words with no upper-case letters as well as words with upper-case 
-# letters, are not removed, i.e. are not treated named entities. 
+# Looping over the synsets and locating and removing named entities by checking for an upper-case letter 
+# in the label. Synsets that have more than one word, and have words with no upper-case letters
+# as well as words with upper-case letters, are not removed, i.e. are not treated named entities. 
 
 # Also locating and removing multi-words. Though, if the synset contains
 # both multi-words and single-words, the synset or multi-word will not be removed.
 
-for s, p, o in synsets.triples((None, URIRef(label), None)):
+for s, p, o in parse_rdf.synsets.triples((None, URIRef(label), None)):
     ne=0
     if any(x.isupper() for x in o) and "_" not in o:
 	if "; " in o and "&amp;" not in o :  # The synset contains more than one word
@@ -79,21 +63,21 @@ for s, p, o in synsets.triples((None, URIRef(label), None)):
 		ne_syn_removed.add(s)
 
 for s in ne_syn_removed:
-	for a, b, c in wordsenses.triples((s, None, None)):
+	for a, b, c in parse_rdf.wordsenses.triples((s, None, None)):
 		ne_wordsen_removed.add(c)
-		for d, e, f in wordsenses.triples((c, URIRef(word), None)):
+		for d, e, f in parse_rdf.wordsenses.triples((c, URIRef(word), None)):
 			if f in lookup: 
 				ne_wordform_removed.add(lookup[f])
 			else:
 				ne_diff.add(f)  # Some words from wordsenses.rdf are apparently not in words.rdf
 			ne_wordid_removed.add(f)
-			words.remove((f, None, None))
-		wordsenses.remove((c, None, None))
-	wordsenses.remove((s, None, None))
-	synsets.remove((s, None, None))
+			parse_rdf.words.remove((f, None, None))
+		parse_rdf.wordsenses.remove((c, None, None))
+	parse_rdf.wordsenses.remove((s, None, None))
+	parse_rdf.synsets.remove((s, None, None))
 	
 
-for s, p, o in synsets.triples((None, URIRef(label), None)): 
+for s, p, o in parse_rdf.synsets.triples((None, URIRef(label), None)): 
     multi=0
     test=False
     if "; " in o:
@@ -111,33 +95,33 @@ for s, p, o in synsets.triples((None, URIRef(label), None)):
 	multi_syn_removed.add(s)
 
 for s in multi_syn_removed:
-	for a, b, c in wordsenses.triples((s, None, None)):
+	for a, b, c in parse_rdf.wordsenses.triples((s, None, None)):
 		multi_wordsen_removed.add(c)
-		for d, e, f in wordsenses.triples((c, URIRef(word), None)):
+		for d, e, f in parse_rdf.wordsenses.triples((c, URIRef(word), None)):
 			if f in lookup: 
 				multi_wordform_removed.add(lookup[f])
 			else:
 				multi_diff.add(f)  # Some words from wordsenses.rdf are apparently not in words.rdf
 			multi_wordid_removed.add(f)
-			words.remove((f, None, None))
-		wordsenses.remove((c, None, None))
-	wordsenses.remove((s, None, None))
-	synsets.remove((s, None, None))
+			parse_rdf.words.remove((f, None, None))
+		parse_rdf.wordsenses.remove((c, None, None))
+	parse_rdf.wordsenses.remove((s, None, None))
+	parse_rdf.synsets.remove((s, None, None))
 
 
-# If there are any empty synsets remaining, they will be removed. There won't be now, since I remove synsets when I remove wordsenses.
+# If there are any empty synsets remaining, they will be removed. 
 
 empty = set()
 
-for s, p, o in synsets.triples((None, URIRef(label), None)):
-	if (s, None, None) not in wordsenses:
+for s, p, o in parse_rdf.synsets.triples((None, URIRef(label), None)):
+	if (s, None, None) not in parse_rdf.wordsenses:
 		empty.add(s)
 		#synsets.remove((s, None, None))
 		
 
-#synsets.serialize(destination='reduced_synsets.rdf')
-#wordsenses.serialize(destination='reduced_wordsenses.rdf')
-#words.serialize(destination='reduced_words.rdf')
+synsets.serialize(destination='reduced_synsets.rdf')
+wordsenses.serialize(destination='reduced_wordsenses.rdf')
+words.serialize(destination='reduced_words.rdf')
 
 #syn = open("reduced_synsets.rdf", "r").read()
 
