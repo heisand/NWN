@@ -39,7 +39,7 @@ lookup_id = {}
 lookup_string ={}
 unique_lex = set()
 
-# Iterating over the words and their words and their wordsenses, 
+# Iterating over the words and their wordsenses, 
 # and map word IDs to the lexical forms and vice versa.
 
 for s, p, o in words.triples((None, URIRef(lexform), None)):
