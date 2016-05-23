@@ -16,11 +16,11 @@ on the hypernym score is maybe better in this case.
 
 Examples of words that are added:
 
-næringsminister {politiker}
-oppussing {bygning}
-pengebruk {investering}
-infeksjon {syke; sykdom; lidelse; sjuke; sjukdom}
-spanjol {statsborger}
+næringsminister 'industry minister' {politiker 'politician'}
+oppussing 'renovation' {bygning 'building'}
+pengebruk 'mony spending' {investering 'investment'}
+infeksjon 'infection' {syke 'illness'; sykdom 'sickness'; lidelse 'disorder'; sjuke 'illness'; sjukdom 'sickness'}
+spanjol 'Spaniard' {statsborger 'citizen'}
 
 An amount of the words get the rather top concept {person; head; human; individual} as their hypernym,
 even in cases this does not seem to fit that well. A distributional similarity between hyponym
