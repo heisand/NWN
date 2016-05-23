@@ -10,8 +10,9 @@ Cut-off on hypernym score: 3.4
 
 2846 words from the Norwegian news corpus, which do not occur in NWN-reduced, occurs more than or equal to 1000 times,
 and do not include proper nouns. 996 words are assigned a hypernym when scoring hypernyms with the given settings,
-but only 158 have a hypernym with a score of 3.4 or more. Training word embeddings og the full corpus, would probably have 
-given higher numbers.
+but only 158 have a hypernym with a score of 3.4 or more. A frequency cut-off of this size limits the numbers quite a lot, 
+training word embeddings og the full corpus, would probably have given higher numbers. Just considering a certain cut-off
+on the hypernym score is maybe better in this case. 
 
 Examples of words that are added:
 
@@ -21,5 +22,8 @@ pengebruk {investering}
 infeksjon {syke; sykdom; lidelse; sjuke; sjukdom}
 spanjol {statsborger}
 
+An amount of the words get the rather top concept {person; head; human; individual} as their hypernym,
+even in cases this does not seem to fit that well. A distributional similarity between hyponym
+and the words in the hypernym would thus be valuable. 
 
 
