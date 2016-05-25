@@ -45,9 +45,6 @@ multi_diff=set()
 # in the label. Synsets that have more than one word, and have words with no upper-case letters
 # as well as words with upper-case letters, are not removed, i.e. are not treated named entities. 
 
-# Also locating and removing multi-words. Though, if the synset contains
-# both multi-words and single-words, the synset or multi-word will not be removed.
-
 for s, p, o in parse_rdf.synsets.triples((None, URIRef(label), None)):
     ne=0
     if any(x.isupper() for x in o) and "_" not in o:
@@ -76,7 +73,9 @@ for s in ne_syn_removed:
 	parse_rdf.wordsenses.remove((s, None, None))
 	parse_rdf.synsets.remove((s, None, None))
 	
-
+# Locating and removing multi-words. Though, if the synset contains
+# both multi-words and single-words, the synset or multi-word will not be removed.
+	
 for s, p, o in parse_rdf.synsets.triples((None, URIRef(label), None)): 
     multi=0
     test=False
