@@ -2,8 +2,7 @@
 
 ## Summary of the project
 - Removed syntax errors
-- Removed proper nouns
-- Removed multi word expressions
+- Removed proper nouns and multi word expressions
 - Removed structural and other errors
 
 ## Dataset
