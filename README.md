@@ -8,8 +8,11 @@
 
 ## Dataset
 synsets.rdf
+
 wordsenses.rdf
+
 words.rdf
+
 hyponym.rdf
 
 ## Scripts
