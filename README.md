@@ -1,5 +1,11 @@
 # mod-wordnet
 
+## Summary of the project
+- Removed syntax errors
+- Removed proper nouns
+- Removed multi word expressions
+- Removed structural and other errors
+
 ## Dataset
 'synsets.rdf'
 'wordsenses.rdf'
