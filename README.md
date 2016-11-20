@@ -7,13 +7,13 @@
 - Removed structural and other errors
 
 ## Dataset
-synsets.rdf
+`synsets.rdf`
 
-wordsenses.rdf
+`wordsenses.rdf`
 
-words.rdf
+`words.rdf`
 
-hyponym.rdf
+`hyponym.rdf`
 
 ## Scripts
 
