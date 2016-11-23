@@ -16,6 +16,13 @@ Initially, a number of changes was made to the original resource:
 `hyponym.rdf`
 
 ## Scripts
+`synsets.rdf`
+
+`wordsenses.rdf`
+
+`words.rdf`
+
+`hyponym.rdf
 
 ## References
 The Language Bank by the National Library of Norway has the origin of the resource, and the 
