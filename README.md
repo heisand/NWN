@@ -13,7 +13,7 @@ Initially, a number of changes was made to the original resource:
 
 `words.rdf`
 
-`hyponym.rdf`
+`hyponymOf.rdf`
 
 ## Scripts
 `correct_syntax_errors.py`
