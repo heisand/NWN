@@ -1,10 +1,10 @@
 # mod-wordnet
 
 ## Summary of the project
-A number of changes was made to the original resource:
-- Removed syntax errors
-- Removed proper nouns and multi word expressions
-- Removed structural and other errors
+Initially, a number of changes was made to the original resource:
+- Correction of syntax errors
+- Removal proper nouns and multi word expressions
+- Removal structural and other errors
 
 ## Dataset
 `synsets.rdf`
