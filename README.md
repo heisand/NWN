@@ -16,7 +16,7 @@ Initially, a number of changes was made to the original resource:
 `hyponym.rdf`
 
 ## Scripts
-`fix_syntax_errors.py`
+`correct_syntax_errors.py`
 
 `new_hyponymy_relations.py`	
 
