@@ -17,9 +17,13 @@ Initially, a number of changes was made to the original resource:
 
 ## Scripts
 `fix_syntax_errors.py`
+
 `new_hyponymy_relations.py`	
+
 `parse_rdf.py`	
+
 `remove_errors.py`	
+
 `remove_ne+multi.py`
 
 ## References
