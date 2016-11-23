@@ -3,8 +3,8 @@
 ## Summary of the project
 Initially, a number of changes was made to the original resource:
 - Correction of syntax errors
-- Removal proper nouns and multi word expressions
-- Removal structural and other errors
+- Removal of proper nouns and multi word expressions
+- Removal of structural and other errors
 
 ## Dataset
 `synsets.rdf`
