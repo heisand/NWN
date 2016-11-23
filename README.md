@@ -16,13 +16,11 @@ Initially, a number of changes was made to the original resource:
 `hyponym.rdf`
 
 ## Scripts
-`synsets.rdf`
-
-`wordsenses.rdf`
-
-`words.rdf`
-
-`hyponym.rdf
+`fix_syntax_errors.py`
+`new_hyponymy_relations.py`	
+`parse_rdf.py`	
+`remove_errors.py`	
+`remove_ne+multi.py`
 
 ## References
 The Language Bank by the National Library of Norway has the origin of the resource, and the 
