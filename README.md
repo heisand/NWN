@@ -17,15 +17,15 @@ A number of changes was made to the original resource:
 `hyponymOf.rdf`:  Connects synsets by hyponym relations.
 
 ## Scripts
-`correct_syntax_errors.py`
+`correct_syntax_errors.py`: Corrects the syntax errors found.
 
-`new_hyponymy_relations.py`	
+`new_hyponymy_relations.py`:  Creates hyponym relations for synsets.	
 
-`parse_rdf.py`	
+`parse_rdf.py`: Parses the rdf-files using the Python package RDFLib.
 
-`remove_errors.py`	
+`remove_errors.py`: Removes structural and other errors from the files.
 
-`remove_ne+multi.py`
+`remove_ne+multi.py`: Removes proper nouns and multi word expressions from the files.
 
 ## References
 The Language Bank by the National Library of Norway has the origin of the resource, and the 
