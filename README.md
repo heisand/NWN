@@ -32,6 +32,8 @@ therefore not immediately possible to view the resource as a tree structure.
 
 `hyponymOf.rdf`:  Connects synsets by hyponym relations.
 
+`NWN.owl`: 
+
 ## Scripts
 `correct_syntax_errors.py`: Corrects the syntax errors found.
 
