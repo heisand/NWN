@@ -23,6 +23,14 @@ available from the web site http://protege.stanford.edu/. The wordnet can be loa
 selecting NWN.owl from the menu. Note that the owl format is an instance model and it is
 therefore not immediately possible to view the resource as a tree structure.
 
+
+The Python package RDFLib can be used to work with the RDF format. RDFLib contains most things you need to work with RDF, 
+including: 
+- parsers and serializers for RDF/XML, N3, NTriples, N-Quads, Turtle, TriX, RDFa and Microdata.
+- a Graph interface which can be backed by any one of a number of Store implementations.
+store implementations for in memory storage and persistent storage on top of the Berkeley DB.
+- a SPARQL 1.1 implementation - supporting SPARQL 1.1 Queries and Update statements.
+
 ## Dataset
 `synsets.rdf`:  Declares the synsets.
 
