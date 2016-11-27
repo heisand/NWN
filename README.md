@@ -16,6 +16,8 @@ A number of changes was made to the original resource:
 - Removal of proper nouns and multi word expressions
 - Removal of structural and other errors
 
+## Using the wordnet
+
 ## Dataset
 `synsets.rdf`:  Declares the synsets.
 
