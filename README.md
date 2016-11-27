@@ -4,7 +4,7 @@ This repository provides a wordnet resource for Norwegian, which is a modificati
 ## Summary of the project
 
 | PoS | Lexical forms        | Synsets          | Senses  |
-| | ------------- |:-------------:| -----:|
+|-----: | ------------- |:-------------:| -----:|
 | Noun | 38,440     | 43,112 | 48,865 |
 | Verb | 2,816      | 4,967      |   5,580 |
 | Adjective | 2,877 | 3,179      |    3,571 |
