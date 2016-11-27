@@ -19,7 +19,8 @@ A number of changes was made to the original resource:
 
 ## Using the wordnet
 It is possible to navigate the resource in the Protégé software. The software is
-available from their web site (http://protege.stanford.edu/).
+available from their web site (http://protege.stanford.edu/). The wordnet can be loaded by 
+selecting NWN.owl from the menu. 
 
 ## Dataset
 `synsets.rdf`:  Declares the synsets.
