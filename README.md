@@ -30,6 +30,7 @@ including:
 - a Graph interface which can be backed by any one of a number of Store implementations.
 store implementations for in memory storage and persistent storage on top of the Berkeley DB.
 - a SPARQL 1.1 implementation - supporting SPARQL 1.1 Queries and Update statements.
+https://rdflib.readthedocs.io/en/stable/index.html provides a guide of how to use RDFLib.
 
 ## Dataset
 `synsets.rdf`:  Declares the synsets.
