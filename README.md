@@ -20,7 +20,7 @@ A number of changes was made to the original resource:
 ## Using the wordnet
 It is possible to navigate the resource in the Protégé software. The software is
 available from the web site http://protege.stanford.edu/. The wordnet can be loaded by 
-selecting NWN.owl from the menu. Note that the owl format is an instance model and it is
+opening NWN.owl from the file menu. Note that the owl format is an instance model and it is
 therefore not immediately possible to view the resource as a tree structure.
 
 
