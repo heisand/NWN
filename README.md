@@ -6,8 +6,8 @@ This repository provides a wordnet resource for Norwegian, which is a modificati
 | Lexical forms        | Synsets          | Senses  |
 | ------------- |:-------------:| -----:|
 | 44,133     | 43,112 | 48,865 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| 2,816      | 4,967      |   5,580 |
+| 2,877 | 3,179      |    3,571 |
 
 A number of changes was made to the original resource:
 - Correction of syntax errors
