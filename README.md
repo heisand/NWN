@@ -1,7 +1,8 @@
 # mod-wordnet
+This repository provides a wordnet resource for Norwegian, which is a modification of https://www.nb.no/sprakbanken/show?serial=sbr-27&lang=nb.
 
 ## Summary of the project
-Initially, a number of changes was made to the original resource:
+A number of changes was made to the original resource:
 - Correction of syntax errors
 - Removal of proper nouns and multi word expressions
 - Removal of structural and other errors
