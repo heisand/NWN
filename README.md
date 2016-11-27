@@ -1,6 +1,6 @@
 # mod-wordnet
 This repository provides a wordnet resource for Norwegian, which is supplied in an extension of the 
-W3C's RDF/OWL Representation of wordnets [RDF/OWL Representation of WordNet](http://www.w3.org/TR/wordnet-rdf/) which is a modification of [Norwegian Wordnet - Bokmål](http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en).
+W3C's RDF/OWL Representation of wordnets ([RDF/OWL Representation of WordNet](http://www.w3.org/TR/wordnet-rdf/)), and is a modification of [Norwegian Wordnet - Bokmål](http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en).
 
 ## Statistics over the wordnet
 
