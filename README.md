@@ -1,5 +1,5 @@
 # mod-wordnet
-This repository provides a wordnet resource for Norwegian, which is a modification of http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en
+This repository provides a wordnet resource for Norwegian, which is a modification of [Norwegian Wordnet - Bokmål](http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en)
 
 ## Summary of the project
 A number of changes was made to the original resource:
