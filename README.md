@@ -3,12 +3,11 @@ This repository provides a wordnet resource for Norwegian, which is a modificati
 
 ## Summary of the project
 
-| Lexical forms       | Synsets          | Senses  | Monosemous words | Polysemous words |
-| ------------- |:-------------:| -----:| | | |
-| col 3 is      | right-aligned | $1600 | | | |
-| col 2 is      | centered      |   $12 | | | |
-| zebra stripes | are neat      |    $1 | | | |
-
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 A number of changes was made to the original resource:
 - Correction of syntax errors
