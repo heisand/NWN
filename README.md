@@ -23,9 +23,9 @@ A number of changes was made to the original resource:
 
 `parse_rdf.py`: Parses the rdf-files using the Python package RDFLib.
 
-`remove_errors.py`: Removes structural and other errors from the files.
+`remove_errors.py`: Removes structural and other errors from the wordnet.
 
-`remove_ne+multi.py`: Removes proper nouns and multi word expressions from the files.
+`remove_ne+multi.py`: Removes proper nouns and multi word expressions from the wordnet.
 
 ## References
 The Language Bank by the National Library of Norway has the origin of the resource, and the 
