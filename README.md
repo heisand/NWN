@@ -1,7 +1,7 @@
 # mod-wordnet
 This repository provides a wordnet resource for Norwegian, which is a modification of [Norwegian Wordnet - Bokmål](http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en).
 
-## Summary of the project
+## Statistics over the wordnet
 
 | PoS | Lexical forms        | Synsets          | Senses  |
 |:----- | ---------: |--------:| -----:|
@@ -10,6 +10,7 @@ This repository provides a wordnet resource for Norwegian, which is a modificati
 | Adjective | 2,877 | 3,179      |    3,571 |
 | Total | 44,133 | 55,258      |    58,016 |
 
+## Summary of the project
 A number of changes was made to the original resource:
 - Correction of syntax errors
 - Removal of proper nouns and multi word expressions
