@@ -3,7 +3,7 @@ This repository provides a wordnet resource for Norwegian, which is a modificati
 
 ## Summary of the project
 
-| Tables        | Are           | Cool  |
+| Lexical forms        | Synsets          | Senses  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
