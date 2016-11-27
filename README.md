@@ -2,6 +2,14 @@
 This repository provides a wordnet resource for Norwegian, which is a modification of [Norwegian Wordnet - Bokmål](http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en).
 
 ## Summary of the project
+
+| Lexical forms       | Synsets          | Senses  | Monosemous words | Polysemous words
+| ------------- |:-------------:| -----:| | |
+| col 3 is      | right-aligned | $1600 | | |
+| col 2 is      | centered      |   $12 | | |
+| zebra stripes | are neat      |    $1 | | |
+
+
 A number of changes was made to the original resource:
 - Correction of syntax errors
 - Removal of proper nouns and multi word expressions
