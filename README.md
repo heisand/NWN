@@ -8,6 +8,7 @@ This repository provides a wordnet resource for Norwegian, which is a modificati
 | Noun | 38,440     | 43,112 | 48,865 |
 | Verb | 2,816      | 4,967      |   5,580 |
 | Adjective | 2,877 | 3,179      |    3,571 |
+|:----- | ---------: |--------:| -----:|
 | Total | 44,133 | 55,258      |    58,016 |
 
 A number of changes was made to the original resource:
