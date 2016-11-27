@@ -7,13 +7,13 @@ Initially, a number of changes was made to the original resource:
 - Removal of structural and other errors
 
 ## Dataset
-`synsets.rdf`
+`synsets.rdf`:  Declares the synsets.
 
-`wordsenses.rdf`
+`wordsenses.rdf`: Connects synsets and words.
 
-`words.rdf`
+`words.rdf`:  Declares the words and their lexical form.
 
-`hyponymOf.rdf`
+`hyponymOf.rdf`:  Connects synsets by hyponym relations.
 
 ## Scripts
 `correct_syntax_errors.py`
