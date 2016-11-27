@@ -18,6 +18,8 @@ A number of changes was made to the original resource:
 - Removal of structural and other errors
 
 ## Using the wordnet
+It is possible to navigate the resource in the Protégé software. The software is
+available from their web site (http://protege.stanford.edu/).
 
 ## Dataset
 `synsets.rdf`:  Declares the synsets.
