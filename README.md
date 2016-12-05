@@ -37,6 +37,8 @@ store implementations for in memory storage and persistent storage on top of the
 
 https://rdflib.readthedocs.io/en/stable/index.html provides a guide of how to use RDFLib.
 
+### Getting started
+
 ## Dataset
 The dataset consists of several rdf-files. RDF is the world Wide Web Consortium standard for encoding knowledge, 
 where almost everything is a resource. The resources are identified by Uniform Resource Identifiers, e.g. a synset with URI http://www.wordnet.dk/owl/instance/2009/03/instances/synset-60504. The information in RDF is expressed using triples of subjects, objects and predicates, where a predicate for instane could be a hyponym relationship or property between two synsets.
