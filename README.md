@@ -17,6 +17,7 @@ A number of changes was made to the original resource:
 - Correction of syntax errors
 - Removal of proper nouns and multi word expressions
 - Removal of structural and other errors
+
 ### Extending the wordnet using a scoring function for new hypernym relations
 
 ## Using the wordnet
