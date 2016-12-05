@@ -18,7 +18,8 @@ A number of changes was made to the original resource:
 - Removal of proper nouns and multi word expressions
 - Removal of structural and other errors
 
-### Extending the wordnet by discovering new hypernym relations based on word embeddings and a scoring function for hypernyms
+### Extending the wordnet 
+by discovering new hypernym relations based on word embeddings and a scoring function for hypernyms
 
 ## Using the wordnet
 It is possible to navigate the resource in the Protégé software. The software is
