@@ -47,15 +47,15 @@ https://rdflib.readthedocs.io/en/stable/index.html provides a guide of how to us
 ## Scripts
 The following scripts where used to create the modified version of the Norwegian Wordnet:
 
-`correct_syntax_errors.py`: Corrects the syntax errors found.
+`correct_syntax_errors.py`: The original wordnet contained different kinds of xml syntax errors. The script these syntax errors throughout the rdf files. 
 
-`new_hyponymy_relations.py`:  Creates hyponym relations for synsets.	
+`new_hyponymy_relations.py`:  Synsets were removed during the removal of proper nouns and multi word expressions, as well as other synsets which were a part of other types of errors. This removed intermediate hypernym relations, and hence also transitive hypernym relations to other ancestors. This script then creates transitive hypernym relations for the synsets that are left behind. 
 
-`parse_rdf.py`: Parses the rdf-files using the Python package RDFLib.
+`parse_rdf.py`: To work with the wordnet, this script parses the necessary rdf-files using the Python package RDFLib.
 
-`remove_errors.py`: Removes structural and other errors from the wordnet.
+`remove_errors.py`: Some structural errors according to a wordnet, as well as some other errors in the rdf-files, occured. This script removes these errors from the wordnet. 
 
-`remove_ne+multi.py`: Removes proper nouns and multi word expressions from the wordnet.
+`remove_ne+multi.py`: The original wordnet contains a quantity of proper nouns and multi word expressions. This script removes the instances of these.
 
 ## References
 The Language Bank by the National Library of Norway has the origin of the resource, and the 
