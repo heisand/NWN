@@ -55,6 +55,7 @@ The WordNet schema has three main classes: Synset, WordSense and Word. Synset an
 `NWN.owl`: 
 
 ## Scripts
+### Modification:
 The following scripts where used to create the modified version of the Norwegian Wordnet:
 
 `correct_syntax_errors.py`: The original wordnet contained different kinds of xml syntax errors. The script these syntax errors throughout the rdf files. 
@@ -66,6 +67,8 @@ The following scripts where used to create the modified version of the Norwegian
 `remove_errors.py`: Some structural errors according to a wordnet, as well as some other errors in the rdf-files, occured. This script removes these errors from the wordnet. 
 
 `remove_ne+multi.py`: The original wordnet contains a quantity of proper nouns and multi word expressions. This script removes the instances of these.
+
+### Extension by scoring hypernyms for new words
 
 ## References
 The Language Bank by the National Library of Norway has the origin of the resource, and the 
