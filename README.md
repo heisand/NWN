@@ -12,10 +12,12 @@ W3C's RDF/OWL Representation of wordnets ([RDF/OWL Representation of WordNet](ht
 | Total | 44,133 | 55,258      |    58,016 |
 
 ## Summary of the project
+### Modifying the wordnet
 A number of changes was made to the original resource:
 - Correction of syntax errors
 - Removal of proper nouns and multi word expressions
 - Removal of structural and other errors
+### Extending the wordnet using a scoring function for new hypernym relations
 
 ## Using the wordnet
 It is possible to navigate the resource in the Protégé software. The software is
