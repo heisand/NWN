@@ -46,6 +46,7 @@ https://rdflib.readthedocs.io/en/stable/index.html provides a guide of how to us
 
 ## Scripts
 The following scripts where used to create the modified version of the Norwegian Wordnet.
+
 `correct_syntax_errors.py`: Corrects the syntax errors found.
 
 `new_hyponymy_relations.py`:  Creates hyponym relations for synsets.	
