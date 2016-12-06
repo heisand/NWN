@@ -74,7 +74,7 @@ The following scripts where used to create the modified version of the Norwegian
 
 ### Extension by scoring hypernyms for new words
 
-`score_hypernym.py`:
+`score_hypernym.py`: Calculates scores for hypernym candidates of a target word and yields the highest scoring hypernym. 
 
 ...
 
