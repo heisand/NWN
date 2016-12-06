@@ -14,12 +14,14 @@ W3C's RDF/OWL Representation of wordnets ([RDF/OWL Representation of WordNet](ht
 ## Summary of the project
 ### Modifying the wordnet
 A number of changes was made to the original resource:
-- Correction of syntax errors
-- Removal of proper nouns and multi word expressions
-- Removal of structural and other errors
+- Correction of syntax errors..
+- Removal of proper nouns and multi word expressions..
+- Removal of structural and other errors..
 
 ### Extending the wordnet 
 by discovering new hypernym relations based on word embeddings and a scoring function for hypernyms
+
+...
 
 ## Using the wordnet
 It is possible to navigate the resource in the Protégé software. The software is
@@ -71,6 +73,10 @@ The following scripts where used to create the modified version of the Norwegian
 `remove_ne+multi.py`: The original wordnet contains a quantity of proper nouns and multi word expressions. This script removes the instances of these.
 
 ### Extension by scoring hypernyms for new words
+
+`score_hypernym.py`:
+
+...
 
 ## References
 The Language Bank by the National Library of Norway has the origin of the resource, and the 
