@@ -28,10 +28,17 @@ Scripts for modifying the original resource are provided in this repository.
 ### Extending the wordnet 
 New words are constantly formed, but it is highly expensive to manually extend and maintain such taxonomies. Wordnets then tend to suffer from inefficient coverage. An attempt to extend the Norwegian Wordnet was performed by discovering new hypernym relations based on word embeddings and a scoring function for hypernyms.
 
+
+
 A script for scoring hypernyms is provided in this repository.
 
 ## Using the wordnet
 ### Tools
+
+- Word3vec
+- RDFLib
+- Protégé
+
 It is possible to navigate the resource in the Protégé software. The software is
 available from the web site http://protege.stanford.edu/. The wordnet can be loaded by 
 opening NWN.owl from the file menu. Note that the owl format is an instance model and it is
