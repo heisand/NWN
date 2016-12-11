@@ -33,7 +33,6 @@ For a target word, a set of the k most similar words are computed. The hypernyms
 A script for scoring hypernyms is provided in this repository.
 
 ## Using the wordnet
-### Tools
 
 - [Protégé](http://protege.stanford.edu/)
 - [RDFLib](https://rdflib.readthedocs.io/en/stable/index.html)
@@ -50,12 +49,27 @@ including:
 store implementations for in memory storage and persistent storage on top of the Berkeley DB.
 - a SPARQL 1.1 implementation - supporting SPARQL 1.1 Queries and Update statements.
 
-https://rdflib.readthedocs.io/en/stable/index.html provides a guide of how to use RDFLib.
+https://rdflib.readthedocs.io/en/stable/index.html provides a guide of how to install and use RDFLib.
+
+The following illustrates how to parse a rdf file, iterate over the contained triples, adding/removing triples and serializing the graph in a given format.
+import rdflib
+
+g = Graph()
+
+someGraph = g.parse("some.rdf")
+
+for subject, predicate object in someGraph:
+  #do something
+  
+someGraph.add((subject, predicate, object))
+
+someGraph.remove((subject, predicate, object))
+
+s = someGraph.serialize(format='nt')
 
 
 
 ## Cmputing word embeddings
-### Tools
 
 - [Word2vec](https://code.google.com/archive/p/word2vec/)
 - [Gensim](https://radimrehurek.com/gensim/)
