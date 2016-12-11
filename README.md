@@ -26,7 +26,7 @@ A number of changes was made to the original resource:
 Scripts for modifying the original resource are provided in this repository. 
 
 ### Extending the wordnet 
-New words are constantly formed, but it is highly expensive to manually extend and maintain such taxonomies. Wordnets then tend to suffer from inefficient coverage. An attempt to extend the Norwegian Wordnet was performed by discovering new hypernym relations based on word embeddings and a scoring function for hypernyms.
+New words are constantly formed, but it is highly expensive to manually extend and maintain such taxonomies. Wordnets then tend to suffer from inefficient coverage. An attempt to extend the Norwegian Wordnet was performed by discovering new hypernym relations based on word embeddings and a scoring function for hypernyms (based on http://www.aclweb.org/anthology/D09-1097).
 
 
 
