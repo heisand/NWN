@@ -69,7 +69,7 @@ The WordNet schema has three main classes: Synset, WordSense and Word. Synset an
 `NWN.owl`: 
 
 ## Scripts
-### Modification:
+### Modification
 The following scripts where used to create the modified version of the Norwegian Wordnet:
 
 `correct_syntax_errors.py`: The original wordnet contained different kinds of xml syntax errors. The script these syntax errors throughout the rdf files. 
