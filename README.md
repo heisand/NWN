@@ -4,8 +4,8 @@ W3C's RDF/OWL Representation of wordnets ([RDF/OWL Representation of WordNet](ht
 
 A wordnet is useful in many NLP tasks, e.g. 
 
-- word sense disambiguation: assigning the correct sense to a word according to the wordnet and a given corpus, or query expansion.
-- reformulation: expend or reformulate queries with synonyms and related words from the wordnet.
+- Word sense disambiguation: assigning the correct sense to a word according to the wordnet and a given corpus. 
+- Query expansion or reformulation: expand or reformulate queries with synonyms and related words from the wordnet.
 
 ## Statistics over the wordnet
 
