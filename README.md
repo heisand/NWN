@@ -53,22 +53,20 @@ https://rdflib.readthedocs.io/en/stable/index.html provides a guide of how to in
 
 The following illustrates how to parse a rdf file, iterate over the contained triples, adding/removing triples and serializing the graph in a given format.
 
-import rdflib
+*import rdflib*
 
-g = Graph()
+*g = Graph()*
 
-someGraph = g.parse("some.rdf")
+*someGraph = g.parse("some.rdf")*
 
-for subject, predicate object in someGraph:
-  #do something
+*for subject, predicate object in someGraph:*
+  *#do something*
   
-someGraph.add((subject, predicate, object))
+*someGraph.add((subject, predicate, object))*
 
-someGraph.remove((subject, predicate, object))
+*someGraph.remove((subject, predicate, object))*
 
-s = someGraph.serialize(format='nt')
-
-
+*s = someGraph.serialize(format='nt')*
 
 ## Cmputing word embeddings
 
