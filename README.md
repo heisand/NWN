@@ -35,10 +35,10 @@ A script for scoring hypernyms is provided in this repository.
 ## Using the wordnet
 ### Tools
 
+- Protégé
+- RDFLib
 - Word2vec
 - Gensim
-- RDFLib
-- Protégé
 
 It is possible to navigate the resource in the Protégé software. The software is
 available from the web site http://protege.stanford.edu/. The wordnet can be loaded by 
@@ -54,9 +54,7 @@ store implementations for in memory storage and persistent storage on top of the
 
 https://rdflib.readthedocs.io/en/stable/index.html provides a guide of how to use RDFLib.
 
-### Getting started
-
-...
+Word2vec through the free Python library Gensim can be used to compute the word embeddings.
 
 ## Dataset
 The dataset consists of several rdf-files. RDF is the world Wide Web Consortium standard for encoding knowledge, 
