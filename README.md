@@ -31,6 +31,7 @@ New words are constantly formed, but it is highly expensive to manually extend a
 A script for scoring hypernyms is provided in this repository.
 
 ## Using the wordnet
+### Tools
 It is possible to navigate the resource in the Protégé software. The software is
 available from the web site http://protege.stanford.edu/. The wordnet can be loaded by 
 opening NWN.owl from the file menu. Note that the owl format is an instance model and it is
