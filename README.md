@@ -40,7 +40,7 @@ A script for scoring hypernyms is provided in this repository.
 
 It is possible to navigate the resource in the Protégé software. The software is
 available from the web site http://protege.stanford.edu/. The wordnet can be loaded by 
-opening NWN.owl from the file menu. Note that the owl format is an instance model and it is
+opening `NWN.owl` from the file menu. Note that the owl format is an instance model and it is
 therefore not immediately possible to view the resource as a tree structure.
 
 The Python package RDFLib can further be used to work with the RDF format. RDFLib contains most things needed to work with RDF, 
