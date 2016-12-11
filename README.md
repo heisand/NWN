@@ -54,7 +54,7 @@ store implementations for in memory storage and persistent storage on top of the
 
 https://rdflib.readthedocs.io/en/stable/index.html provides a guide of how to use RDFLib.
 
-Word2vec through the free Python library Gensim can be used to compute the word embeddings. Tutorials for using word2vec with genism is found at https://radimrehurek.com/gensim/models/word2vec.html and https://rare-technologies.com/word2vec-tutorial/.
+Word2vec through the free Python library Gensim can be used to compute the word embeddings. Tutorials for using word2vec with genism are found at https://radimrehurek.com/gensim/models/word2vec.html and https://rare-technologies.com/word2vec-tutorial/.
 
 ## Dataset
 The dataset consists of several rdf-files. RDF is the world Wide Web Consortium standard for encoding knowledge, 
