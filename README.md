@@ -36,9 +36,9 @@ A script for scoring hypernyms is provided in this repository.
 ### Tools
 
 - [Protégé](http://protege.stanford.edu/)
-- RDFLib
-- Word2vec
-- Gensim
+- [RDFLib](https://rdflib.readthedocs.io/en/stable/index.html)
+- [Word2vec](https://code.google.com/archive/p/word2vec/)
+- [Gensim](https://radimrehurek.com/gensim/)
 
 It is possible to navigate the resource in the Protégé software. The software is
 available from the web site http://protege.stanford.edu/. The wordnet can be loaded by 
@@ -54,7 +54,7 @@ store implementations for in memory storage and persistent storage on top of the
 
 https://rdflib.readthedocs.io/en/stable/index.html provides a guide of how to use RDFLib.
 
-Word2vec through the free Python library Gensim can be used to compute the word embeddings.
+Word2vec through the free Python library Gensim can be used to compute the word embeddings. Tutorials for using word2vec with genism is found at https://radimrehurek.com/gensim/models/word2vec.html and https://rare-technologies.com/word2vec-tutorial/.
 
 ## Dataset
 The dataset consists of several rdf-files. RDF is the world Wide Web Consortium standard for encoding knowledge, 
