@@ -86,7 +86,7 @@ The following scripts where used to create the modified version of the Norwegian
 
 `parse_rdf.py`: To work with the wordnet, this script parses the necessary rdf-files using the Python package RDFLib.
 
-`remove_errors.py`: Some structural errors according to a wordnet, as well as some other errors in the rdf-files, occured. This script removes these errors from the wordnet. 
+`remove_errors.py`: Some structural errors according to the structure of a wordnet, as well as some other errors in the rdf-files, occured. This script removes these errors from the wordnet. 
 
 `remove_ne+multi.py`: The original wordnet contains a quantity of proper nouns and multi word expressions. This script removes the instances of these.
 
