@@ -2,6 +2,11 @@
 This repository provides a wordnet resource for Norwegian. It is a modification of [Norwegian Wordnet - Bokmål](http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en), which is supplied in an extension of the 
 W3C's RDF/OWL Representation of wordnets ([RDF/OWL Representation of WordNet](http://www.w3.org/TR/wordnet-rdf/)).
 
+A wordnet is useful in many NLP tasks, e.g. 
+
+- word sense disambiguation: assigning the correct sense to a word according to the wordnet and a given corpus, or query expansion.
+- reformulation: expend or reformulate queries with synonyms and related words from the wordnet.
+
 ## Statistics over the wordnet
 
 | PoS | Lexical forms        | Synsets          | Senses  |
@@ -14,11 +19,12 @@ W3C's RDF/OWL Representation of wordnets ([RDF/OWL Representation of WordNet](ht
 ## Summary of the project
 ### Modifying the wordnet
 A number of changes was made to the original resource:
-- Correction of syntax errors..
-- Removal of proper nouns and multi word expressions..
-- Removal of structural and other errors..
+- Correction of syntax errors, e.g. mismatches between start and end tags.
+- Removal of proper nouns and multi word expressions.
+- Removal of structural and other errors, e.g. synsets with duplicate words.
 
 ### Extending the wordnet 
+
 by discovering new hypernym relations based on word embeddings and a scoring function for hypernyms
 
 ...
@@ -76,9 +82,7 @@ The following scripts where used to create the modified version of the Norwegian
 
 ### Extension by scoring hypernyms for new words
 
-`score_hypernym.py`: Calculates scores for hypernym candidates of a target word and yields the highest scoring hypernym. 
-
-...
+`score_hypernym.py`: Calculates scores for hypernym candidates of a target word and yields the highest scoring hypernym for each target word.
 
 ## References
 The Language Bank by the National Library of Norway has the origin of the resource, and the 
