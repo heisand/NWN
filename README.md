@@ -35,7 +35,7 @@ A script for scoring hypernyms is provided in this repository.
 ## Using the wordnet
 ### Tools
 
-- Word3vec
+- Word2vec
 - RDFLib
 - Protégé
 
