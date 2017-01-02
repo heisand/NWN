@@ -91,7 +91,7 @@ The WordNet schema has three main classes: Synset, WordSense and Word. Synset an
 
 `hyponymOf.rdf`:  Connects synsets by hyponym relations.
 
-`NWN.owl`: 
+`NWN.owl`: OWL-file to build the ontology in Protégé.
 
 ## Scripts
 ### Modification
