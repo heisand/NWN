@@ -73,7 +73,7 @@ The following illustrates how to parse a rdf file with rdflib, iterate over the 
 - [Word2vec](https://code.google.com/archive/p/word2vec/)
 - [Gensim](https://radimrehurek.com/gensim/)
 
-Word2vec through the free Python library Gensim can be used to compute the word embeddings. Tutorials for using word2vec with genism are found at https://radimrehurek.com/gensim/models/word2vec.html and https://rare-technologies.com/word2vec-tutorial/.
+Word2vec through the free Python library Gensim can be used to compute the word embeddings, which was used in this project. Tutorials for using word2vec with genism are found at https://radimrehurek.com/gensim/models/word2vec.html and https://rare-technologies.com/word2vec-tutorial/.
 The input wot word2vec is a text corpus, and the word embeddings are produced as output. 
 
 ## Dataset
