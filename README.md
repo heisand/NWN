@@ -51,7 +51,7 @@ store implementations for in memory storage and persistent storage on top of the
 
 https://rdflib.readthedocs.io/en/stable/index.html provides a guide of how to install and use RDFLib.
 
-The following illustrates how to parse a rdf file with rdflib, iterate over the contained triples, adding/removing triples and serializing the graph in a given format.
+The following illustrates how to parse a rdf file with RDFLib, iterate over the contained triples, adding/removing triples and serializing the graph in a given format.
 
 *import rdflib*
 
