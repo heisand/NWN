@@ -2,7 +2,7 @@
 This repository provides a wordnet resource for Norwegian. It is a modification of [Norwegian Wordnet - Bokmål](http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en), which is supplied in an extension of the 
 W3C's RDF/OWL Representation of wordnets ([RDF/OWL Representation of WordNet](http://www.w3.org/TR/wordnet-rdf/)).
 
-A wordnet is useful in many NLP tasks, e.g.:
+A wordnet can be useful in many NLP tasks, e.g.:
 
 - Word sense disambiguation: assigning the correct sense to a word according to the wordnet and a given corpus. 
 - Query expansion or reformulation: expand or reformulate queries with synonyms and related words from the wordnet.
