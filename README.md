@@ -97,7 +97,7 @@ The WordNet schema has three main classes: Synset, WordSense and Word. Synset an
 ### Modification
 The following scripts where used to create the modified version of the Norwegian Wordnet:
 
-`correct_syntax_errors.py`: The original wordnet contained different kinds of xml syntax errors. The script these syntax errors throughout the rdf files. 
+`correct_syntax_errors.py`: The original wordnet contained different kinds of xml syntax errors. The script corrects these syntax errors throughout the rdf-files. 
 
 `new_hyponymy_relations.py`:  Synsets were removed during the removal of proper nouns and multi word expressions, as well as other synsets which were a part of other types of errors. This removed intermediate hypernym relations, and hence also transitive hypernym relations to other ancestors. This script then creates transitive hypernym relations for the synsets that are left behind. 
 
