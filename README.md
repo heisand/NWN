@@ -74,7 +74,7 @@ The following illustrates how to parse a rdf file with RDFLib, iterate over the 
 - [Gensim](https://radimrehurek.com/gensim/)
 
 Word2vec through the free Python library Gensim can be used to compute word embeddings, which was used in this project. Tutorials for using word2vec with genism are found at https://radimrehurek.com/gensim/models/word2vec.html and https://rare-technologies.com/word2vec-tutorial/.
-The input wot word2vec is a text corpus, and the word embeddings are produced as output. 
+The input to word2vec is a text corpus, and the word embeddings are produced as output. 
 
 ## Dataset
 The dataset of NWN consists of several rdf-files. RDF is the world Wide Web Consortium standard for encoding knowledge, 
