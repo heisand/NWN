@@ -21,7 +21,7 @@ A wordnet can be useful in many NLP tasks, e.g.:
 A number of changes was made to the original resource:
 - Correction of syntax errors, e.g. mismatches between start and end tags.
 - Removal of proper nouns and multi word expressions, mostly due to problems with parsing the big amount of data when proper nouns and multi words were included. 
-- Removal of structural and other errors, e.g. synsets with duplicate words.
+- Removal of structural and other errors, e.g. synsets with duplicate occurrences of words.
 
 Scripts for modifying the original resource are provided in this repository. 
 
