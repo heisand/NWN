@@ -111,6 +111,8 @@ The following scripts where used to create the modified version of the Norwegian
 
 `score_hypernym.py`: Calculates scores for hypernym candidates of a target word and yields the highest scoring hypernym for each target word.
 
+### Examples from hypernym scoring
+
 ## References
 The Language Bank by the National Library of Norway has the origin of the resource, and the 
 the original wordnet resource can be found at http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en.
