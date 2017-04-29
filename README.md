@@ -113,18 +113,19 @@ The following scripts where used to create the modified version of the Norwegian
 
 ### Examples from hypernym scoring
 
-• Slagvåpen ’hitting weapon’:
-– Predicted:
+- Slagvåpen ’hitting weapon’:
+Predicted:
 {håndvåpen ’hand weapon’; handvåpen ’hand weapon’}
-– Gold:
+
+Correct:
 {håndvåpen ’hand weapon’; handvåpen ’hand weapon’}
-• Superstjerne ’super star’:
-– Predicted:
-{person ’person’; hode ’head’; menneske ’human’; individ
-’individual’}
-– Gold:
-{person ’person’; hode ’head’; menneske ’human’; individ
-’individual’}
+
+- Superstjerne ’super star’:
+Predicted:
+{person ’person’; hode ’head’; menneske ’human’; individ ’individual’}
+
+Correct:
+{person ’person’; hode ’head’; menneske ’human’; individ ’individual’}
 
 ## References
 The Language Bank by the National Library of Norway has the origin of the resource, and the 
