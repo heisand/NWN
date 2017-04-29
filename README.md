@@ -113,7 +113,9 @@ The following scripts where used to create the modified version of the Norwegian
 
 ### Examples from hypernym scoring
 
-- Slagvåpen ’hitting weapon’:
+The first couple of examples show some correct predictions:
+
+- Slagvåpen ’hitting weapon’
 
  Predicted:
  {håndvåpen ’hand weapon’; handvåpen ’hand weapon’}
@@ -121,13 +123,15 @@ The following scripts where used to create the modified version of the Norwegian
  Correct:
  {håndvåpen ’hand weapon’; handvåpen ’hand weapon’}
 
-- Superstjerne ’super star’:
+- Superstjerne ’super star’
 
  Predicted:
  {person ’person’; hode ’head’; menneske ’human’; individ ’individual’}
 
  Correct:
  {person ’person’; hode ’head’; menneske ’human’; individ ’individual’}
+ 
+The following examples show some predictions that are not completely correct, but not entirely wrong either:
 
 - svigermor ’mother in law’
 
