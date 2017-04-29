@@ -14,7 +14,7 @@ A wordnet can be useful in many NLP tasks, e.g.:
 | Noun | 38,440     | 43,112 | 48,865 |
 | Verb | 2,816      | 4,967      |   5,580 |
 | Adjective | 2,877 | 3,179      |    3,571 |
-| Total | 44,133 | 55,258      |    58,016 |
+| Total | 44,133 | 51,258      |    58,016 |
 
 ## Summary of the project
 ### Modifying the wordnet
@@ -32,6 +32,8 @@ For a target word, a set of the _k_ most similar words are computed. The hyperny
 
 A script for scoring hypernyms is provided in this repository.
 
+Note that 47,914 of the 51,258 synsets actually are top nodes, i.e. NWN-reduced has a very flat structure. 
+                                    
 ## Using the wordnet
 
 - [Protégé](http://protege.stanford.edu/)
