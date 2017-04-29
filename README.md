@@ -107,13 +107,14 @@ The following scripts where used to create the modified version of the Norwegian
 
 `remove_ne+multi.py`: The original wordnet contains a quantity of proper nouns and multi word expressions. This script removes the instances of these.
 
-### Extension by scoring hypernyms for new words
+### Scoring hypernyms for new words
 
 `score_hypernym.py`: Calculates scores for hypernym candidates of a target word and yields the highest scoring hypernym for each target word.
 
 ### Examples from hypernym scoring
 
 - Slagvåpen ’hitting weapon’:
+
 Predicted:
 {håndvåpen ’hand weapon’; handvåpen ’hand weapon’}
 
@@ -121,6 +122,7 @@ Correct:
 {håndvåpen ’hand weapon’; handvåpen ’hand weapon’}
 
 - Superstjerne ’super star’:
+
 Predicted:
 {person ’person’; hode ’head’; menneske ’human’; individ ’individual’}
 
