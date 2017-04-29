@@ -133,7 +133,7 @@ The following scripts where used to create the modified version of the Norwegian
  Correct:
  {person ’person’; hode ’head’; menneske ’human’; individ ’individual’}
  
-## The following examples show some predictions that are not completely correct, but not entirely wrong either:
+### The following examples show some predictions that are not completely correct, but not entirely wrong either:
 
 - svigermor ’mother in law’
 
