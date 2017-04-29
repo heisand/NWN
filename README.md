@@ -25,7 +25,7 @@ A number of changes was made to the original resource:
 
 Scripts for modifying the original resource are provided in this repository. 
 
-### Extending the wordnet 
+### Experiments on extending the wordnet 
 New words are constantly formed, but it is highly expensive to manually extend and maintain such taxonomies. Wordnets then tend to suffer from inefficient coverage. An attempt to extend the Norwegian Wordnet was performed by discovering new hypernym relations based on word embeddings and a scoring function for hypernyms (based on [Yamada et al. 2009](http://www.aclweb.org/anthology/D09-1097)).
 
 For a target word, a set of the _k_ most similar words are computed. The hypernyms in the wordnet for these words are possible hypernyms for the target word. The hypernym with the highest score is selected as the hypernym of the target word, where the score is based on distributional similarity and the hierarchical structure of the wordnet. 
