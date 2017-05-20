@@ -12,11 +12,11 @@ words = rdflib.Graph()
 hyponymy = rdflib.Graph()
 wordsenses = rdflib.Graph()
 
-synsets.parse("reduced_synsets2.rdf")
-wordsenses.parse("reduced_wordsenses2.rdf")
-words.parse("reduced_words2.rdf")
-hyponymy.parse("reduced_hyponymOf.rdf")
-synsets.parse("reduced_hyponymOf.rdf") # merging synsets and hyponymOf
+synsets.parse("path to synsets.rdf")
+wordsenses.parse("path to wordsenses.rdf")
+words.parse("path to words.rdf")
+hyponymy.parse("path to hyponymy.rdf")
+synsets.parse("path to synsets.rdf") # merging synsets and hyponymOf
 
 hyp = URIRef("http://www.wordnet.dk/owl/instance/2009/03/schema/hyponymOf")
 
@@ -143,12 +143,11 @@ def score(ntrg, k_similar, d):
 		best = max(hyper_score, key=hyper_score.get)
 		hyper_scores.write(ntrg + "\t" + str(best) + "\t" + str(hyper_score[best]) + "\n")
 
-k = 12 
-s = 0.8
-d = 0.5
+k = <value for k>
+s = <value for s>
+d = <value for d>
 path = ""
 title = ""
-print title, k, s, d
 hyper_scores=open(title, "w") #+ str(k) +"_"+ str(s) +"_"+ str(d), "w")
 with open(path) as file
   for l in file:
