@@ -117,18 +117,18 @@ The following scripts where used to create the modified version of the Norwegian
 
 | Score| Target word  | Predicted hypernym  |
 |:----- | ---------: |--------:|
-| 5.29 | sm{\aa}rolling \textit{toddler}      | \{barn \textit{child}; menneskebarn \textit{human child}\} | 
-| 4.74 | utskudd      | \textit{bully} &\{person \textit{person}; menneske \textit{human}; individ\textit{individual}\}  |   
-| 4.41 | kulturprodukt | \textit{culture product} &\{effekt \textit{effect}; gjenstand \textit{object}; ting \textit{thing}\}  |   
-| 3.59 | venezuelaner | \textit{Venezualian} &\{statsborger \textit{citizen}\}  |    
-| 2.41 | zoonose | \textit{zoonosis} &\{syke \textit{illness}; sykdom \textit{disease}; lidelse \textit{suffering}\} |  
-| 2.38 | m{\aa}lscorer | \textit{goalscorer} &\{ballspiller \textit{ball player}; spiller \textit{player}\} |  
-| 2.20 | rev | \textit{fox} &\{dyr \textit{animal}; dyreart \textit{animal specie}\} |  
-| 1.78 | mateple | \textit{food apple} &\{eple \textit{apple}\}    |  
-| 1.75 | rekordavling | \textit{record harvest} &\underline{\{handelsvare \textit{commodity}\}}   |  
-| 1.64 | funn | \textit{find} &\underline{\{skip \textit{ship}; skute \textit{ship}\}} |  
-| 1.62 | tippoldebarn |  \textit{great-grandchild} &\{barn \textit{child}\}    |  
-| 1.50 |  dykker | \textit{god mother}&\{mor \textit{mother}; moder \textit{mother}; mamma \textit{mom}\} |  
+| 5.29 | sm{\aa}rolling *toddler*      | \{barn *child*; menneskebarn *human child*\} | 
+| 4.74 | utskudd      | *bully* &\{person *person*; menneske *human*; individ *individual*\}  |   
+| 4.41 | kulturprodukt | *culture product* &\{effekt *effect*; gjenstand *object*; ting *thing*\}  |   
+| 3.59 | venezuelaner | *Venezualian* &\{statsborger *citizen*\}  |    
+| 2.41 | zoonose | *zoonosis* &\{syke *illness*; sykdom *disease*; lidelse *suffering*\} |  
+| 2.38 | m{\aa}lscorer | *goalscorer* &\{ballspiller *ball player*; spiller *player*\} |  
+| 2.20 | rev | *fox* &\{dyr *animal*; dyreart *animal specie*\} |  
+| 1.78 | mateple | *food apple* &\{eple *apple*\}    |  
+| 1.75 | rekordavling | *record harvest* &\underline{\{handelsvare *commodity*\}}   |  
+| 1.64 | funn | *find* &\underline{\{skip *ship*; skute *ship*\}} |  
+| 1.62 | tippoldebarn |  *great-grandchild* &\{barn *child*\}    |  
+| 1.50 |  dykker | *diver* &\underline{\{fart{\o}y *vessel*\}}\\ |  
 
 
 #### Emples of correct predictions:
