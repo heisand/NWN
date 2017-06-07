@@ -1,5 +1,7 @@
 #coding="utf-8"
 
+# Under revision
+
 import re
 import rdflib
 from rdflib import URIRef, Literal
