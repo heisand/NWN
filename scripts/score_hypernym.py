@@ -1,5 +1,7 @@
 # coding=utf8
 
+# Under revision
+
 import rdflib
 from rdflib import URIRef
 from rdflib.namespace import RDF
