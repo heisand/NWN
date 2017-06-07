@@ -1,5 +1,7 @@
 #coding:utf-8
 
+# Under revision
+
 import rdflib
 from rdflib import URIRef, Literal
 import parse_rdf
