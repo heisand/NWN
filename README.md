@@ -13,7 +13,6 @@ where almost everything is defined as a resource. The resources are identified b
 
 The WordNet schema has three main classes: Synset, WordSense and Word. Synset and Wordsense also have subclasses for the parts of speech in WordNet. A synset contains one or more word senses, but each word sense only belongs to one synset. Each word has in turn exactly one word to represent its lexical form, but one word can be represented by one or more word senses. 
 
-
 `synsets.rdf`:  Declares the synsets.
 
 `wordsenses.rdf`: Connects synsets and words.
@@ -26,23 +25,23 @@ The WordNet schema has three main classes: Synset, WordSense and Word. Synset an
 
 ## Scripts
 ### Modification
-The following scripts where used to create the modified version of the Norwegian Wordnet:
+The following scripts where used to create the modified version of NWN:
 
-`correct_syntax_errors.py`: The original wordnet contained different kinds of xml syntax errors. The script corrects these syntax errors throughout the rdf-files. 
+`correct_syntax_errors.py`: The original resource contained different kinds of xml syntax errors. The script corrects these syntax errors throughout the rdf-files. 
 
 `new_hyponymy_relations.py`:  Synsets were removed during the removal of proper nouns and multi word expressions, as well as other synsets which were a part of other types of errors. This removed intermediate hypernym relations, and hence also transitive hypernym relations to other ancestors. This script then creates transitive hypernym relations for the synsets that are left behind. 
 
-`parse_rdf.py`: To work with the wordnet, this script parses the necessary rdf-files using the Python package RDFLib.
+`parse_rdf.py`: To work with NWN, this script parses the necessary rdf-files using the Python package RDFLib.
 
-`remove_errors.py`: Some structural errors according to the structure of a wordnet, as well as some other errors in the rdf-files, occured. This script removes these errors from the wordnet. 
+`remove_errors.py`: Some structural errors according to the structure of a wordnet, as well as some other errors in the rdf-files, occured. This script removes these errors from NWN. 
 
-`remove_ne+multi.py`: The original wordnet contains a quantity of proper nouns and multi word expressions. This script removes the instances of these.
+`remove_ne+multi.py`: The original resource contained a quantity of proper nouns and multi word expressions. This script removes the instances of these.
 
 ### Scoring hypernyms for new words
 
 `score_hypernym.py`: Calculates scores for hypernym candidates of a target word and yields the highest scoring hypernym for each target word.
 
-## Statistics over the wordnet
+## Statistics for the modified NWN
 
 | PoS | Lexical forms        | Synsets          | Senses  |
 |:----- | ---------: |--------:| -----:|
@@ -52,7 +51,7 @@ The following scripts where used to create the modified version of the Norwegian
 | Total | 44,133 | 51,258      |    58,016 |
 
 ## Summary of the project
-### Modifying the wordnet
+### Modifying NWN
 A number of changes was made to the original resource:
 - Correction of syntax errors.
 - Removal of proper nouns and multi word expressions.
@@ -60,7 +59,7 @@ A number of changes was made to the original resource:
 
 Scripts for modifying the original resource are provided in this repository. 
 
-### Experiments on extending the wordnet 
+### Experiments on extending NWN
 New words are constantly formed, but it is highly expensive to manually extend and maintain such taxonomies. Wordnets then tend to suffer from inefficient coverage. An attempt to extend the Norwegian Wordnet was performed by discovering new hypernym relations based on word embeddings and a scoring function for hypernyms (based on [Yamada et al. 2009](http://www.aclweb.org/anthology/D09-1097)).
 
 For a target word, a set of the _k_ most similar words are computed. The hypernyms in the wordnet for these words are possible hypernyms for the target word. The hypernym with the highest score is selected as the hypernym of the target word, where the score is based on a combination distributional similarity and the hierarchical structure of the wordnet. 
