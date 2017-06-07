@@ -33,6 +33,24 @@ The WordNet schema has three main classes: Synset, WordSense and Word. Synset an
 
 `NWN.owl`: OWL-file to build the ontology in Protégé.
 
+## Scripts
+### Modification
+The following scripts where used to create the modified version of the Norwegian Wordnet:
+
+`correct_syntax_errors.py`: The original wordnet contained different kinds of xml syntax errors. The script corrects these syntax errors throughout the rdf-files. 
+
+`new_hyponymy_relations.py`:  Synsets were removed during the removal of proper nouns and multi word expressions, as well as other synsets which were a part of other types of errors. This removed intermediate hypernym relations, and hence also transitive hypernym relations to other ancestors. This script then creates transitive hypernym relations for the synsets that are left behind. 
+
+`parse_rdf.py`: To work with the wordnet, this script parses the necessary rdf-files using the Python package RDFLib.
+
+`remove_errors.py`: Some structural errors according to the structure of a wordnet, as well as some other errors in the rdf-files, occured. This script removes these errors from the wordnet. 
+
+`remove_ne+multi.py`: The original wordnet contains a quantity of proper nouns and multi word expressions. This script removes the instances of these.
+
+### Scoring hypernyms for new words
+
+`score_hypernym.py`: Calculates scores for hypernym candidates of a target word and yields the highest scoring hypernym for each target word.
+
 ## Summary of the project
 ### Modifying the wordnet
 A number of changes was made to the original resource:
@@ -94,24 +112,6 @@ The following code snippet illustrates how to parse a rdf file with RDFLib, iter
 
 Word2vec through the free Python library Gensim can be used to compute word embeddings, which was used in this project. Tutorials for using word2vec with genism are found at https://radimrehurek.com/gensim/models/word2vec.html and https://rare-technologies.com/word2vec-tutorial/.
 The input to word2vec is a text corpus, and the word embeddings are produced as output. 
-
-## Scripts
-### Modification
-The following scripts where used to create the modified version of the Norwegian Wordnet:
-
-`correct_syntax_errors.py`: The original wordnet contained different kinds of xml syntax errors. The script corrects these syntax errors throughout the rdf-files. 
-
-`new_hyponymy_relations.py`:  Synsets were removed during the removal of proper nouns and multi word expressions, as well as other synsets which were a part of other types of errors. This removed intermediate hypernym relations, and hence also transitive hypernym relations to other ancestors. This script then creates transitive hypernym relations for the synsets that are left behind. 
-
-`parse_rdf.py`: To work with the wordnet, this script parses the necessary rdf-files using the Python package RDFLib.
-
-`remove_errors.py`: Some structural errors according to the structure of a wordnet, as well as some other errors in the rdf-files, occured. This script removes these errors from the wordnet. 
-
-`remove_ne+multi.py`: The original wordnet contains a quantity of proper nouns and multi word expressions. This script removes the instances of these.
-
-### Scoring hypernyms for new words
-
-`score_hypernym.py`: Calculates scores for hypernym candidates of a target word and yields the highest scoring hypernym for each target word.
 
 ### Running the scripts
 
