@@ -1,4 +1,7 @@
 # coding=utf8
+
+# Under revision
+
 # Should be run with 4 arguments: synsets.rdf, wordsenses.rdf, words.rdf and hyponymOf.rdf (in that order).
 
 import sys
