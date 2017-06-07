@@ -130,59 +130,6 @@ The following scripts where used to create the modified version of the Norwegian
 | 1.62 | tippoldebarn  *great-grandchild* |  \{barn *child*\}    |  
 | 1.50 | dykker  *diver* | \{fartøy *vessel*\} |  
 
-
-#### Emples of correct predictions:
-
-- Slagvåpen ’hitting weapon’
-
- Predicted:
- {håndvåpen ’hand weapon’; handvåpen ’hand weapon’}
-
- Correct:
- {håndvåpen ’hand weapon’; handvåpen ’hand weapon’}
-
-- Superstjerne ’super star’
-
- Predicted:
- {person ’person’; hode ’head’; menneske ’human’; individ ’individual’}
-
- Correct:
- {person ’person’; hode ’head’; menneske ’human’; individ ’individual’}
- 
-#### Examples of predictions that are not completely correct, but not entirely wrong either:
-
-- svigermor ’mother in law’
-
- Predicted:
- {mor ’mother’; moder ’mother’; mamma ’mum’}
-
- Correct:
- {dame ’woman’; kvinne ’woman’; kvinnemenneske ’woman’; hunkjønn ’female’; fruentimmer ’woman’; hokjønn ’female’}
- 
-- stesønn ’step son’
-
- Predicted:
- {hr. ’mr.’; mann ’man’; herre ’man’; mannsperson ’man person’; hannkjønn ’male’; herr ’mister’}
- 
- Correct:
- {sønn ’son’}
- 
-- skolebarn ’school child’
-
- Predicted:
- {elev ’student’}
- 
- Correct:
- {barn ’child’; menneskebarn ’human child’}
- 
- - forsvarsspiller ’defense player’
- 
- Predicted:
- {fotballspiller ’football player’; fotballspeller ’football player’}
- 
- Correct:
- {ballspiller ’ball player’; spiller ’player’; speller ’player’}
-
 ## References
 The Language Bank by the National Library of Norway has the origin of the resource, and the 
 the original wordnet resource can be found at http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en.
