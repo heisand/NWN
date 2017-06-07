@@ -113,7 +113,7 @@ The following scripts where used to create the modified version of the Norwegian
 
 `score_hypernym.py`: Calculates scores for hypernym candidates of a target word and yields the highest scoring hypernym for each target word.
 
-## Manual inspection of results
+## Example of predictions
 
 | Score| Target word  | Predicted hypernym  |
 |-----: | :--------- |:--------|
