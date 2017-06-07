@@ -116,19 +116,19 @@ The following scripts where used to create the modified version of the Norwegian
 ## Manual inspection of results
 
 | Score| Target word  | Predicted hypernym  |
-|:----- | ---------: |--------:|
-| 5.29 | sm{\aa}rolling *toddler*      | \{barn *child*; menneskebarn *human child*\} | 
+|-----: | :--------- |:--------|
+| 5.29 | smårolling *toddler*      | \{barn *child*; menneskebarn *human child*\} | 
 | 4.74 | utskudd      | *bully* &\{person *person*; menneske *human*; individ *individual*\}  |   
 | 4.41 | kulturprodukt | *culture product* &\{effekt *effect*; gjenstand *object*; ting *thing*\}  |   
 | 3.59 | venezuelaner | *Venezualian* &\{statsborger *citizen*\}  |    
 | 2.41 | zoonose | *zoonosis* &\{syke *illness*; sykdom *disease*; lidelse *suffering*\} |  
-| 2.38 | m{\aa}lscorer | *goalscorer* &\{ballspiller *ball player*; spiller *player*\} |  
+| 2.38 | målscorer | *goalscorer* &\{ballspiller *ball player*; spiller *player*\} |  
 | 2.20 | rev | *fox* &\{dyr *animal*; dyreart *animal specie*\} |  
 | 1.78 | mateple | *food apple* &\{eple *apple*\}    |  
 | 1.75 | rekordavling | *record harvest* &\underline{\{handelsvare *commodity*\}}   |  
-| 1.64 | funn | *find* &\underline{\{skip *ship*; skute *ship*\}} |  
+| 1.64 | funn | *find* | \{skip *ship*; skute *ship*\} |  
 | 1.62 | tippoldebarn |  *great-grandchild* &\{barn *child*\}    |  
-| 1.50 |  dykker | *diver* &\underline{\{fart{\o}y *vessel*\}}\\ |  
+| 1.50 | dykker | *diver* | \{fartøy *vessel*\}\\ |  
 
 
 #### Emples of correct predictions:
