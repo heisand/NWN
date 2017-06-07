@@ -16,6 +16,23 @@ A wordnet can be useful in many NLP tasks, e.g.:
 | Adjective | 2,877 | 3,179      |    3,571 |
 | Total | 44,133 | 51,258      |    58,016 |
 
+## Dataset
+The dataset of NWN consists of several rdf-files. RDF is the world Wide Web Consortium standard for encoding knowledge, 
+where almost everything is defined as a resource. The resources are identified by Uniform Resource Identifiers, e.g. a synset with URI http://www.wordnet.dk/owl/instance/2009/03/instances/synset-60504. The information in RDF is expressed using triples of subjects, objects and predicates, where a predicate for instane could be a hyponym relationship or property between two synsets.
+
+The WordNet schema has three main classes: Synset, WordSense and Word. Synset and Wordsense also have subclasses for the parts of speech in WordNet. A synset contains one or more word senses, but each word sense only belongs to one synset. Each word has in turn exactly one word to represent its lexical form, but one word can be represented by one or more word senses. 
+
+
+`synsets.rdf`:  Declares the synsets.
+
+`wordsenses.rdf`: Connects synsets and words.
+
+`words.rdf`:  Declares the words and their lexical form.
+
+`hyponymOf.rdf`:  Connects synsets by hyponym relations.
+
+`NWN.owl`: OWL-file to build the ontology in Protégé.
+
 ## Summary of the project
 ### Modifying the wordnet
 A number of changes was made to the original resource:
@@ -77,23 +94,6 @@ The following code snippet illustrates how to parse a rdf file with RDFLib, iter
 
 Word2vec through the free Python library Gensim can be used to compute word embeddings, which was used in this project. Tutorials for using word2vec with genism are found at https://radimrehurek.com/gensim/models/word2vec.html and https://rare-technologies.com/word2vec-tutorial/.
 The input to word2vec is a text corpus, and the word embeddings are produced as output. 
-
-## Dataset
-The dataset of NWN consists of several rdf-files. RDF is the world Wide Web Consortium standard for encoding knowledge, 
-where almost everything is defined as a resource. The resources are identified by Uniform Resource Identifiers, e.g. a synset with URI http://www.wordnet.dk/owl/instance/2009/03/instances/synset-60504. The information in RDF is expressed using triples of subjects, objects and predicates, where a predicate for instane could be a hyponym relationship or property between two synsets.
-
-The WordNet schema has three main classes: Synset, WordSense and Word. Synset and Wordsense also have subclasses for the parts of speech in WordNet. A synset contains one or more word senses, but each word sense only belongs to one synset. Each word has in turn exactly one word to represent its lexical form, but one word can be represented by one or more word senses. 
-
-
-`synsets.rdf`:  Declares the synsets.
-
-`wordsenses.rdf`: Connects synsets and words.
-
-`words.rdf`:  Declares the words and their lexical form.
-
-`hyponymOf.rdf`:  Connects synsets by hyponym relations.
-
-`NWN.owl`: OWL-file to build the ontology in Protégé.
 
 ## Scripts
 ### Modification
