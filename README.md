@@ -125,10 +125,10 @@ The following scripts where used to create the modified version of the Norwegian
 | 2.38 | målscorer *goalscorer* |  \{ballspiller *ball player*; spiller *player*\} |  
 | 2.20 | rev *fox*  | \{dyr *animal*; dyreart *animal specie*\} |  
 | 1.78 | mateple *food apple*  | \{eple *apple*\}    |  
-| 1.75 | rekordavling *record harvest* | &\underline{\{handelsvare *commodity*\}}   |  
+| 1.75 | rekordavling *record harvest* | \{handelsvare *commodity*\}   |  
 | 1.64 | funn  *find*  | \{skip *ship*; skute *ship*\} |  
 | 1.62 | tippoldebarn  *great-grandchild* |  \{barn *child*\}    |  
-| 1.50 | dykker  *diver* | \{fartøy *vessel*\}\\ |  
+| 1.50 | dykker  *diver* | \{fartøy *vessel*\} |  
 
 
 #### Emples of correct predictions:
