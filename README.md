@@ -7,15 +7,6 @@ A wordnet can be useful in many NLP tasks, e.g.:
 - Word sense disambiguation: assigning the correct sense to a word according to the wordnet and a given corpus. 
 - Query expansion or reformulation: expand or reformulate queries with synonyms and related words from the wordnet.
 
-## Statistics over the wordnet
-
-| PoS | Lexical forms        | Synsets          | Senses  |
-|:----- | ---------: |--------:| -----:|
-| Noun | 38,440     | 43,112 | 48,865 |
-| Verb | 2,816      | 4,967      |   5,580 |
-| Adjective | 2,877 | 3,179      |    3,571 |
-| Total | 44,133 | 51,258      |    58,016 |
-
 ## Dataset
 The dataset of NWN consists of several rdf-files. RDF is the world Wide Web Consortium standard for encoding knowledge, 
 where almost everything is defined as a resource. The resources are identified by Uniform Resource Identifiers, e.g. a synset with URI http://www.wordnet.dk/owl/instance/2009/03/instances/synset-60504. The information in RDF is expressed using triples of subjects, objects and predicates, where a predicate for instane could be a hyponym relationship or property between two synsets.
@@ -50,6 +41,15 @@ The following scripts where used to create the modified version of the Norwegian
 ### Scoring hypernyms for new words
 
 `score_hypernym.py`: Calculates scores for hypernym candidates of a target word and yields the highest scoring hypernym for each target word.
+
+## Statistics over the wordnet
+
+| PoS | Lexical forms        | Synsets          | Senses  |
+|:----- | ---------: |--------:| -----:|
+| Noun | 38,440     | 43,112 | 48,865 |
+| Verb | 2,816      | 4,967      |   5,580 |
+| Adjective | 2,877 | 3,179      |    3,571 |
+| Total | 44,133 | 51,258      |    58,016 |
 
 ## Summary of the project
 ### Modifying the wordnet
