@@ -34,7 +34,7 @@ A script for scoring hypernyms is provided in this repository.
 
 Note that 47,914 of the 51,258 synsets actually are top nodes, i.e. NWN-reduced has a very flat structure. 
                                     
-## Using the wordnet
+## Navigating NWN
 
 - [Protégé](http://protege.stanford.edu/)
 - [RDFLib](https://rdflib.readthedocs.io/en/stable/index.html)
@@ -61,7 +61,7 @@ The following code snippet illustrates how to parse a rdf file with RDFLib, iter
 
 *someGraph = g.parse("some.rdf")*
 
-*for subject, predicate object in someGraph:*
+*for subject, predicate, object in someGraph:*
   *#do something*
   
 *someGraph.add((subject, predicate, object))*
