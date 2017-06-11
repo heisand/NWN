@@ -134,4 +134,9 @@ The input to word2vec is a text corpus, and the word embeddings are produced as 
 ## References
 The Language Bank by the National Library of Norway has the origin of the resource, and the 
 the original wordnet resource can be found at http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en.
-http://www.ep.liu.se/ecp/131/042/ecp17131042.pdf
+
+Please cite the following paper if you use the data sets in academic works:
+Sand, H., Velldal, E., Øvrelid, L. (2017). [Wordnet extension via word embeddings:
+Experiments on the Norwegian Wordnet](http://aclweb.org/anthology/W/W17/W17-0242.pdf). 
+In *Proceedings of the 21st Nordic Conference on
+Computational Linguistics (NoDaLiDa)* (pp. 298-302). Gothenburg, Sweden.
