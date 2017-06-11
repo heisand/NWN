@@ -40,6 +40,8 @@ The following scripts where used to create the modified version of NWN:
 
 `score_hypernym.py`: Calculates scores for hypernym candidates of a target word and yields the highest scoring hypernym for each target word.
 
+### Running the scripts
+
 ## Navigating NWN
 
 - [Protégé](http://protege.stanford.edu/)
@@ -83,8 +85,6 @@ The following code snippet illustrates how to parse a rdf file with RDFLib, iter
 
 Word2vec through the free Python library Gensim can be used to compute word embeddings, which was used in this project. Tutorials for using word2vec with genism are found at https://radimrehurek.com/gensim/models/word2vec.html and https://rare-technologies.com/word2vec-tutorial/.
 The input to word2vec is a text corpus, and the word embeddings are produced as output. 
-
-### Running the scripts
 
 ## Statistics for the modified NWN
 
