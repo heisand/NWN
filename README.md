@@ -40,33 +40,6 @@ The following scripts where used to create the modified version of NWN:
 
 `score_hypernym.py`: Calculates scores for hypernym candidates of a target word and yields the highest scoring hypernym for each target word.
 
-## Statistics for the modified NWN
-
-| PoS | Lexical forms        | Synsets          | Senses  |
-|:----- | ---------: |--------:| -----:|
-| Noun | 38,440     | 43,112 | 48,865 |
-| Verb | 2,816      | 4,967      |   5,580 |
-| Adjective | 2,877 | 3,179      |    3,571 |
-| Total | 44,133 | 51,258      |    58,016 |
-
-## Summary of the project
-### Modifying NWN
-A number of changes was made to the original resource:
-- Correction of syntax errors.
-- Removal of proper nouns and multi word expressions.
-- Removal of structural and other errors.
-
-Scripts for modifying the original resource are provided in this repository. 
-
-### Experiments on extending NWN
-New words are constantly formed, but it is highly expensive to manually extend and maintain such taxonomies. Wordnets then tend to suffer from inefficient coverage. An attempt to extend the Norwegian Wordnet was performed by discovering new hypernym relations based on word embeddings and a scoring function for hypernyms (based on [Yamada et al. 2009](http://www.aclweb.org/anthology/D09-1097)).
-
-For a target word, a set of the _k_ most similar words are computed. The hypernyms in the wordnet for these words are possible hypernyms for the target word. The hypernym with the highest score is selected as the hypernym of the target word, where the score is based on a combination distributional similarity and the hierarchical structure of the wordnet. 
-
-A script for scoring hypernyms is provided in this repository.
-
-Note that 47,914 of the 51,258 synsets actually are top nodes, i.e. NWN-reduced has a very flat structure. 
-                                    
 ## Navigating NWN
 
 - [Protégé](http://protege.stanford.edu/)
@@ -103,7 +76,7 @@ The following code snippet illustrates how to parse a rdf file with RDFLib, iter
 
 *s = someGraph.serialize(format='nt')*
 
-## Cmputing word embeddings
+## Computing word embeddings
 
 - [Word2vec](https://code.google.com/archive/p/word2vec/)
 - [Gensim](https://radimrehurek.com/gensim/)
@@ -112,6 +85,33 @@ Word2vec through the free Python library Gensim can be used to compute word embe
 The input to word2vec is a text corpus, and the word embeddings are produced as output. 
 
 ### Running the scripts
+
+## Statistics for the modified NWN
+
+| PoS | Lexical forms        | Synsets          | Senses  |
+|:----- | ---------: |--------:| -----:|
+| Noun | 38,440     | 43,112 | 48,865 |
+| Verb | 2,816      | 4,967      |   5,580 |
+| Adjective | 2,877 | 3,179      |    3,571 |
+| Total | 44,133 | 51,258      |    58,016 |
+
+## Summary of the project
+### Modifying NWN
+A number of changes was made to the original resource:
+- Correction of syntax errors.
+- Removal of proper nouns and multi word expressions.
+- Removal of structural and other errors.
+
+Scripts for modifying the original resource are provided in this repository. 
+
+### Experiments on extending NWN
+New words are constantly formed, but it is highly expensive to manually extend and maintain such taxonomies. Wordnets then tend to suffer from inefficient coverage. An attempt to extend the Norwegian Wordnet was performed by discovering new hypernym relations based on word embeddings and a scoring function for hypernyms (based on [Yamada et al. 2009](http://www.aclweb.org/anthology/D09-1097)).
+
+For a target word, a set of the _k_ most similar words are computed. The hypernyms in the wordnet for these words are possible hypernyms for the target word. The hypernym with the highest score is selected as the hypernym of the target word, where the score is based on a combination distributional similarity and the hierarchical structure of the wordnet. 
+
+A script for scoring hypernyms is provided in this repository.
+
+Note that 47,914 of the 51,258 synsets actually are top nodes, i.e. NWN-reduced has a very flat structure.                               
 
 ## Example of predictions
 
