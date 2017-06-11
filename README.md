@@ -7,6 +7,8 @@ A wordnet can be useful in many NLP tasks, e.g.:
 - Word sense disambiguation: assigning the correct sense to a word according to the wordnet and a given corpus. 
 - Query expansion or reformulation: expand or reformulate queries with synonyms and related words from the wordnet.
 
+See section 'Summary of the project' for more information of the projet.
+
 ## Dataset
 The dataset of NWN consists of several rdf-files. RDF is the world Wide Web Consortium standard for encoding knowledge and is expressed using triples of subjects, objects and predicates.
 
