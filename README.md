@@ -133,8 +133,8 @@ The input to word2vec is a text corpus, and the word embeddings are produced as 
 | 1.50 | dykker  *diver* | \{fartøy *vessel*\} |  
 
 ## References
-The Language Bank by the National Library of Norway has the origin of the resource, and the 
-the original wordnet resource can be found at http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en.
+The Language Bank by the National Library of Norway has the origin of the resource.
+The resource can be found at http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en.
 
 Please cite the following paper if you use the data sets or scripts in academic works:
 >Sand, H., Velldal, E., Øvrelid, L. (2017). [Wordnet extension via word embeddings:
