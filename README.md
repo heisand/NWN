@@ -136,7 +136,7 @@ The Language Bank by the National Library of Norway has the origin of the resour
 the original wordnet resource can be found at http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-27&lang=en.
 
 Please cite the following paper if you use the data sets in academic works:
-Sand, H., Velldal, E., Øvrelid, L. (2017). [Wordnet extension via word embeddings:
-Experiments on the Norwegian Wordnet](http://aclweb.org/anthology/W/W17/W17-0242.pdf). 
-In *Proceedings of the 21st Nordic Conference on
-Computational Linguistics (NoDaLiDa)* (pp. 298-302). Gothenburg, Sweden.
+>Sand, H., Velldal, E., Øvrelid, L. (2017). [Wordnet extension via word embeddings:
+>Experiments on the Norwegian Wordnet](http://aclweb.org/anthology/W/W17/W17-0242.pdf). 
+>In *Proceedings of the 21st Nordic Conference on
+>Computational Linguistics (NoDaLiDa)* (pp. 298-302). Gothenburg, Sweden.
