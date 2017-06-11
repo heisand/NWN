@@ -10,7 +10,7 @@ A wordnet can be useful in many NLP tasks, e.g.:
 See section 'Summary of the project' for more information about the project.
 
 ## Dataset
-The dataset of NWN consists of several rdf-files. RDF is the world Wide Web Consortium standard for encoding knowledge and is expressed using triples of subjects, objects and predicates.
+The dataset of NWN is a set of rdf files. RDF is the world Wide Web Consortium standard for encoding knowledge and is expressed using triples of subjects, objects and predicates.
 
 The WordNet schema has three main classes: Synset, WordSense and Word. Synset and Wordsense also have subclasses for the parts of speech in WordNet. A synset contains one or more word senses, but each word sense only belongs to one synset. Each word has in turn exactly one word to represent its lexical form, but one word can be represented by one or more word senses. 
 
